@@ -19,7 +19,6 @@ public class List {
 	public List(String n, int totalSize) {
 
 		name = n;
-		//System.out.println(mapL2);
 
 		if(name.length() > 1) {
 			L1 = mapL1.get(name.substring(0, name.length()-1));
